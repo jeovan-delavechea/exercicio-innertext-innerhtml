@@ -1,7 +1,7 @@
-let titulo = document.getElementById('titulo');
-let listaNaoOrdenada = document.querySelector('ul');
-let ancoraLink = document.querySelector('a');
-let listaOrdenada = document.getElementById('lista-ordenada');
+const titulo = document.getElementById('titulo');
+const listaNaoOrdenada = document.querySelector('ul');
+const ancoraLink = document.querySelector('a');
+const listaOrdenada = document.getElementById('lista-ordenada');
 
 titulo.innerText = "Manipulando o DOM com JS"
 ancoraLink.innerText = "Acesse o curso responsável por gerar novos programadores aqui!"
